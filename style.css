@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(to bottom,#f8d984, #e49e4f, #c29d4f);
+    min-height: 100vh;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    position: relative;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+button {
+    position: absolute; 
+    border-radius: 50px;
+    background-color: red;
+}
+.next {
+    right: 20px;
+}
