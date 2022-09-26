@@ -24,8 +24,13 @@ body {
     padding: 20px;
     margin-top: auto;
 }
+h1 {
+    width: 30vw;
+    min-width: 440px;
+}
 img {
-    width: 100%;
+    width: 30vw;
+    min-width: 440px;
     height: 100%;
 }
 .title-music {
@@ -54,10 +59,13 @@ img {
 #timeline {
     -webkit-appearance: none;
     appearance: none;
-    padding: 15px;
     width: 80%;   
-    height: 0.1px;
-    background-color: rgb(0, 0, 0);
-    color: #fff;
-    border-radius: 50px;
+    background-color: #ddd;
+    overflow: hidden;
+    border-radius: 10px;
+    accent-color: #48494b;
+}
+#timeline::-webkit-slider-thumb {
+    box-shadow: -340px 0 0 330px #48494b;
+    border-radius: 10px;
 }
