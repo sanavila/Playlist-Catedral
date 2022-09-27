@@ -56,6 +56,11 @@ img {
     transition: 0.3s;
     cursor: pointer;
 }
+.active {
+    background-color: #fff;
+    color: #000;
+    opacity: 0.6;
+}
 #timeline {
     -webkit-appearance: none;
     appearance: none;

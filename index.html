@@ -13,27 +13,26 @@
 <body>
     <div class="flex-container">
         <div class="container">
-            <img src="" alt=""> 
+            <img id="image"> 
         </div>
         <div class="title-music">
-            <h1></h1>
-            <p></p>
+            <h1 id="title"></h1>
+            <p id="author"></p>
             <div class="functionalities">
-                <button class="buttons-functionalities" id="back" onclick=""><span class="material-symbols-outlined">skip_previous</span></button>
+                <button class="buttons-functionalities" id="back"><span class="material-symbols-outlined">skip_previous</span></button>
                 <button class="buttons-functionalities" id="pause"><span class="material-symbols-outlined">pause</span></button>
                 <button class="buttons-functionalities" id="player" ><span class="material-symbols-outlined">arrow_right</span></button>
                 <button class="buttons-functionalities" id="repeat"><span class="material-symbols-outlined">undo</span></button>
                 <button class="buttons-functionalities" id="next"><span class="material-symbols-outlined">skip_next</span></button>
             </div>
             <div>
-                <input id="timeline" type="range">
+                <input id="timeline" type="range" value="0">
             </div>
-            <audio class="audios">
-                <source src=""></source>
-            </audio>
+            <audio id="track" class="audios"></audio>
         </div>
     </div>
-    <script type="module" src="js/main.js"></script>
-    <script type="text/javascript" src="js/tracks.js"></script>
+    <script src="js/tracks.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
